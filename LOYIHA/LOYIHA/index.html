@@ -210,7 +210,7 @@
 
       let username = localStorage.getItem("username");
       let messages = JSON.parse(localStorage.getItem("messages")) || [];
-      const socket = new WebSocket("wss://telegra.up.railway.app/ws");
+      const socket = new WebSocket("wss://telegra.vercel.app/ws");
 
       if (username) {
         usernameContainer.style.display = "none";
